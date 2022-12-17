@@ -1,0 +1,17 @@
+.footer{
+    background-color:rgb(216, 216, 216);
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.footer-img{
+  margin-top: -5px;
+  margin-right: -25px;
+  width: 100px;
+  height: 100px;
+  align-self: center;
+}

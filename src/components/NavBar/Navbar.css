@@ -1,0 +1,36 @@
+.navbar{
+    background-color: none;
+    z-index: 1;
+  }
+
+  .navbar-container{
+    justify-content: space-evenly;
+    padding: 5px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  
+  .buttons-navbar{
+    font-size: 1.2em ;
+    padding-top: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    border: none;
+  }
+
+  .logo{
+    display: flex;
+    text-decoration: none;   
+  }
+
+  .logo img{
+  margin-top: -12px;
+  margin-right: -20px;
+  width: 100px;
+  height: 100px;
+  align-self: center;
+  }

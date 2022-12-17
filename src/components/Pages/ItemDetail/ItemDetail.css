@@ -1,0 +1,26 @@
+.container-description{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 85vh;
+}
+
+.description-img{
+     max-width: 520px;
+     max-height: 500px;
+     margin: 50px ;
+     border-radius: 20px;
+}
+
+.description-detail{
+    margin: 0 auto;
+    margin: 50px;
+}
+
+.add-cart{
+    border: 2px #000;
+    color: #fff;
+    padding: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}

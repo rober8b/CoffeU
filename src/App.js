@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Navigate, Route, Routes } from "react-router-dom";
+import ItemDetail from "./components/Pages/ItemDetail/ItemDetail";
+import Navbar from "./components/NavBar/Navbar";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import Home from "./components/Pages/Home/Home";
+import Footer from "./components/Footer/footer";
 
-function App() {
-  return (
+import data from "./data.json";
+
+
+
+const App = function () {
+    const { HotCoffes, IcedCoffes } = data;
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Navbar />
+        <main>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/HotCoffes" element={<ItemListContainer list={HotCoffes} />} />
+              <Route path="/HotCoffes/:title" element={<ItemDetail data={data} />} />
+              <Route path="/IcedCoffes" element={<ItemListContainer list={IcedCoffes} />} />
+              <Route path="/IcedCoffes/:title" element={<ItemDetail data={data} />} />
+              <Route path="*" element={<Navigate to="/" />} />
+            </Routes>
+        </main>
+
+        <Footer />
     </div>
-  );
+    );
 }
 
 export default App;
+
+{/* <HomeContainer greeting={"Enjoy The Taste!"}/>
+     <ItemListContainer />
+     <Footer /> */}

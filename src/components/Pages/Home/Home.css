@@ -1,0 +1,53 @@
+.home{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.greeting_banner{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.greeting{
+    justify-content: center;
+    color: #000;
+    font-size: 40px;
+    max-width: 600px;
+    z-index: 3;
+}
+.greeting-info p{
+    z-index: 3;
+    font-size: 20px; 
+    max-width: 600px;
+}
+
+.greeting-img{
+   padding-top: 100px;
+   z-index: 10;
+}
+
+.personal-info {
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+}
+
+.dots{
+    margin: 0 auto;
+    position:absolute;
+    display: flex;
+    z-index: 1;
+}
+
+.dot {
+    margin: 20px;
+    padding: 80px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: rgba(140, 0, 255, 0.4);
+    -webkit-filter: blur(110px);
+    filter: blur(110px);
+  }
