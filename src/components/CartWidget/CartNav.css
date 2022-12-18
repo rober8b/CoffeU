@@ -3,9 +3,11 @@
     cursor: pointer;
     padding: 8px;
     border-radius: 20px;
+    margin-right: 20px;
     background-color: #FAFAFA;
     align-self: center;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.377);
+    background-color: rgba(211, 200, 99, 0.459);
 }
 
 .cart-img{

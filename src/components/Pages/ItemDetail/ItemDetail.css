@@ -6,8 +6,8 @@
 }
 
 .description-img{
-     max-width: 520px;
-     max-height: 500px;
+     max-width: 420px;
+     max-height: 400px;
      margin: 50px ;
      border-radius: 20px;
 }
@@ -17,8 +17,9 @@
     margin: 50px;
 }
 
-.add-cart{
+.add-cart_detail{
     border: 2px #000;
+    background-color:rgb(68, 68, 68);
     color: #fff;
     padding: 12px;
     border-radius: 20px;

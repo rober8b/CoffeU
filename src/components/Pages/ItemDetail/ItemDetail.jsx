@@ -18,7 +18,7 @@ const ItemDetail = ({ data }) => {
               {item.ingredients}
               </p>
               <h2>{item.price}</h2>
-            <button className="add-cart">Add to cart</button>
+            <button className="add-cart_detail">Add to cart</button>
            </div>
         </div>
       </>

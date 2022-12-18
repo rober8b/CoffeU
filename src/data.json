@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Latte_at_Doppio_Ristretto_Chiang_Mai_01.jpg/509px-Latte_at_Doppio_Ristretto_Chiang_Mai_01.jpg",
+      "image": "https://www.acouplecooks.com/wp-content/uploads/2020/09/Latte-Art-067s.jpg",
       "price": "$14",
       "title": "Latte",
       "description": "As the most popular coffee drink out there, the latte is comprised of a shot of espresso and steamed milk with just a touch of foam. It can be ordered plain or with a flavor shot of anything from vanilla to pumpkin spice.",
@@ -35,7 +35,7 @@
     },
     {
       "id": 4,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg/1280px-Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg",
+      "image": "https://images.squarespace-cdn.com/content/v1/5a7cbe247131a5f17b3cc8fc/1519447742018-MOHBW2G0VOQ7QSCPJE14/Americano-Coffee-Lounge-Ingredients.jpg",
       "price": "$9",
       "title": "Americano",
       "description": "With a similar flavor to black coffee, the americano consists of an espresso shot diluted in hot water.",
@@ -66,7 +66,7 @@
     },
     {
       "id": 7,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Caf%C3%A9Cortado%28Tallat%29.jpg",
+      "image": "https://www.ocu.org/-/media/ocu/images/home/electrodomesticos/pequenos%20electrodomesticos/cafeteras/tazas-vasos/taza-espresso-600x600.png?rev=1307b2cd-b5e9-42f2-b3cb-4c843a97f7ec&hash=28148D12CD0EBDAFA07FE2201BDACAC6&mw=960",
       "price": "$11",
       "title": "Cortado",
       "description": "Like yin and yang, a cortado is the perfect balance of espresso and warm steamed milk. The milk is used to cut back on the espresso’s acidity.",
@@ -99,8 +99,8 @@
     },
     {
       "id": 10,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Caff%C3%A8_lungo.JPG",
-      "price": "$15",
+      "image": "https://www.dolce-gusto.es/media/wysiwyg/45_que-es-el-cafe-largo.png",
+      "price": "$9",
       "title": "Lungo",
       "description": "A lungo is a long-pull espresso. The longer the pull, the more caffeine there is and the more ounces you can enjoy.",
       "ingredients": [
@@ -109,7 +109,7 @@
     },
     {
       "id": 11,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Caff%C3%A8_Espresso_Macchiato_Schiumato.jpg",
+      "image": "https://www.recetasmundo.com/wp-content/uploads/2022/11/Prepare-cafe-con-leche-latte-macchiato-usted-mismo-1200x900.jpg",
       "price": "$13",
       "title": "Macchiato",
       "description": "The macchiato is another espresso-based drink that has a small amount of foam on top. It’s the happy medium between a cappuccino and a doppio.",
@@ -132,7 +132,7 @@
     },
     {
       "id": 13,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Doppio_ristretto_Chiang_Mai.jpg",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_861513-MLA44192085106_112020-O.jpg",
       "price": "$12",
       "title": "Ristretto",
       "description": "Ristretto is an espresso shot. It uses less hot water which creates a sweeter flavor compared to the bitter taste of a traditional shot of espresso or a doppio.",
@@ -189,7 +189,7 @@
     {
     "id": 18,
     "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Cuban_coffee-_2013-04-05_14-30.jpg",
-    "price": "$11",
+    "price": "$6",
     "title": "Cortadito",
     "description": "Traditional cuban coffee method where a bit of freshly brewed coffee is mixed with sugar to create a highly sugared paste. Then add the rest of the coffee and stir adding milk until a 50/50 ratio is achieved.",
     "ingredients": [
@@ -224,7 +224,7 @@
         "Cream*"
       ],
       "price": "$17",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Home_Made_Ice_Coffee.jpg",
+      "image": "https://www.thecookierookie.com/wp-content/uploads/2021/05/iced-espresso-recipe-3-800x1200.jpg",
       "id": 2
     },
     {
@@ -235,7 +235,7 @@
         "Ice"
       ],
       "price": "$19",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/ColdBrewCoffeein_Cans.png/640px-ColdBrewCoffeein_Cans.png",
+      "image": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2F9eada0d203bfb580d801b478edd553465c7afb52",
       "id": 3
     },
     {

@@ -1,5 +1,15 @@
 import "./Home.css"
-import ItemListContainer from "../../ItemListContainer/ItemListContainer";
+import Coffes from "../Coffes/Coffes"
+
+const ItemListContainer = function ({ list }) {
+    return list.map(({ title, image, price }) => (
+        <div className="item-list">
+            <div className="item">
+           <Coffes key={title} title={title} image={image} price={price}/>
+           </div>
+        </div>
+    ));
+}
 
 const Home = () => {
     return(
@@ -28,7 +38,8 @@ const Home = () => {
                 
                 <div className="products">
                    <h2 className="products-title">Our Products</h2>
-                   
+                  {/* <ItemListContainer /> */}
+
                 </div>
 
 

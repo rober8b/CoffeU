@@ -1,49 +1,52 @@
 
 .card{
-    text-align: center;
-    color:#000;
-    width: 250px;
-    max-height: 380px;
-    padding: 20px;
-    border-radius: 5px 25px 5px 25px;  
-    background-color: #f1f1f1;
-    margin: 15px auto;
-    justify-content: center;
-    transition: all .3s;
+    border-radius: 10px 40px 10px 40px !important;
+    border: 0px;  
+    background-color: #eeeeee;
 }
-
-.card:hover{
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
-}
-
 
 .card-img{
     cursor: pointer;
     justify-self: center;
     border-radius: 10px;
-    max-width: 200px;
-    max-height: 200px;
+    width: 180px;
+    height: 200px;
+    margin-top: 20px;
 }
 
-.card-info button{
-    font: .7em 'Poppins';
-    margin: 10px;
-    padding: 12px;
-    border-radius: 20px;
-    cursor: pointer;
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
+.card-price{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #000;
 }
 
 .buy{
-    background-color: rgb(194, 154, 95);
+    background-color: rgb(211, 200, 99);
     border: 0px;
     transition: all .3s;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .buy:hover{
     color: #F3F2F2;
-    background-color: rgb(82, 64, 39);
+    background-color: rgb(212, 171, 112);
 }
+
 .add-cart{
-    border: 1px;
-    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(168, 168, 168);
+    border: 0px;
+}
+
+.add-cart:hover{
+    background-color: rgb(61, 48, 29);
 }

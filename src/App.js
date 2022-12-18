@@ -1,7 +1,7 @@
 import "./App.css";
 import { Navigate, Route, Routes } from "react-router-dom";
 import ItemDetail from "./components/Pages/ItemDetail/ItemDetail";
-import Navbar from "./components/NavBar/Navbar";
+import Navigation from "./components/NavBar/Navbar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import Home from "./components/Pages/Home/Home";
 import Footer from "./components/Footer/footer";
@@ -14,10 +14,10 @@ const App = function () {
     const { HotCoffes, IcedCoffes } = data;
     return (
     <div className="App">
-        <Navbar />
+        <Navigation />
         <main>
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/" element={<Home /> } />
               <Route path="/HotCoffes" element={<ItemListContainer list={HotCoffes} />} />
               <Route path="/HotCoffes/:title" element={<ItemDetail data={data} />} />
               <Route path="/IcedCoffes" element={<ItemListContainer list={IcedCoffes} />} />

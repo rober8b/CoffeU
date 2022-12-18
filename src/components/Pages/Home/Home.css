@@ -10,35 +10,42 @@
     display: flex;
 }
 
-.greeting{
-    justify-content: center;
-    color: #000;
-    font-size: 40px;
-    max-width: 600px;
-    z-index: 3;
-}
-.greeting-info p{
-    z-index: 3;
-    font-size: 20px; 
-    max-width: 600px;
-}
-
-.greeting-img{
-   padding-top: 100px;
-   z-index: 10;
-}
-
-.personal-info {
+.greeting-info {
     justify-content: center;
     align-items: center;
     max-width: 700px;
 }
 
+.greeting{
+    justify-content: center;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 600px;
+    z-index: 3;
+}
+
+.greeting-info{
+    z-index: 8;
+    padding-left: 100px;
+}
+
+.greeting-info p{
+    font-size: 20px; 
+    max-width: 600px;
+}
+
+.greeting-img{
+   padding-left: 60px;
+   padding-top: 100px;
+   z-index: 10;
+}
+
+
 .dots{
     margin: 0 auto;
     position:absolute;
     display: flex;
-    z-index: 1;
 }
 
 .dot {
@@ -47,7 +54,11 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background: rgba(140, 0, 255, 0.4);
+    background: rgba(217, 255, 0, 0.6);
     -webkit-filter: blur(110px);
     filter: blur(110px);
   }
+
+.products-title{
+    font-weight: bold;
+}

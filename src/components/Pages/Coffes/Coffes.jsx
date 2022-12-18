@@ -1,24 +1,34 @@
 import "./Coffes.css"
 import { Link } from 'react-router-dom';
+import Card from 'react-bootstrap/Card';
+import Stack from 'react-bootstrap/Stack';
+import Button from 'react-bootstrap/Button';
 
 
 const Coffes = function ({ title, image, price }) {
   return (
-       <div className="card">
+    <Card style={{ width: '18rem'}}  className="card rounded mx-4 mb-4">
+      
        <Link to={`${title}`}>
-        <img className="card-img" src={image}/>
+        <Card.Img className="card-img" src={image}/>
       </Link>
-       <div className="card-info">
-        <p>{title}</p>
-        <h2>{price}</h2>
 
-        <Link to={`${title}`}>
-        <button className="buy">Buy now</button>
-        </Link>
-        <button className="add-cart">Add to cart</button>
+      <Card.Body>
 
-       </div>
-       </div>
+      <Card.Title><h2 className="card-title">{title}</h2></Card.Title>
+
+        <h3 className="card-price">{price}</h3>
+
+        <Stack gap={3} className="col-md-6 mx-auto">
+           <Link to={`${title}`}>
+            <Button className="buy">Buy now</Button>
+           </Link>
+
+            <Button className="add-cart">Add to cart</Button>
+        </Stack>
+
+       </Card.Body>
+    </Card>
     );
 };
 

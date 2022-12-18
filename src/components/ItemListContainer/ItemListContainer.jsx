@@ -1,14 +1,19 @@
 import Coffes from "../Pages/Coffes/Coffes"
 import "./ItemListContainer.css"
+import Col from 'react-bootstrap/Col';
+import CardGroup from 'react-bootstrap/CardGroup';
+import Row from 'react-bootstrap/Row';
 
 const ItemListContainer = function ({ list }) {
-    return list.map(({ title, image, price }) => (
-        <div className="item-list">
-            <div className="item">
+    return (
+        <CardGroup className="card-group">
+        {list.map(({ title, image, price }) => (
+         <Col>
            <Coffes key={title} title={title} image={image} price={price}/>
-           </div>
-        </div>
-    ));
+         </Col>
+    ))};
+     </CardGroup>
+    ) 
 }
 
 export default ItemListContainer;

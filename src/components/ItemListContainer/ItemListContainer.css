@@ -1,5 +1,7 @@
-.item-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.card-group{
+    max-width: 1200px !important;
+    margin: 0 auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
