@@ -3,7 +3,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import ItemDetail from "./components/Pages/ItemDetail/ItemDetail";
 import Navigation from "./components/NavBar/Navbar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
-import Home from "./components/Pages/Home/Home";
+import Home from "./components/Home/Home";
 import Footer from "./components/Footer/footer";
 
 import data from "./data.json";
