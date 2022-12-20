@@ -1,23 +1,17 @@
+import { useEffect, useState } from 'react';
+import ItemList from '../ItemList/ItemList';
+import './ItemDetailContainer.css'
 
-import { useEffect, useState } from "react";
-
-function ItemListContainer ({coffes}){
+const ItemListContainer = () => {
 
     const [coffes, setCoffes] = useState([]);
 
-    const initialUrl = "https://api.npoint.io/9ff57e61c9e61ec6a599"
-    
-    const fetchCoffes = (url) => {
+    useEffect(() => {
       fetch(url)
       .then(response => response.json())
       .then(data => setCoffes(data))
       .catch(error => console.log(error))
-    }
-  
-    useEffect(() => {
-      fetchCoffes(initialUrl);
-    }, [])
-  
+    } , []);
 }
 
-export default ItemListContainer
+export default ItemDetailContainer

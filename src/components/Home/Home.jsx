@@ -28,13 +28,13 @@ const Home = ({list}) => {
 
                     </div>
 
-                 <img className="greeting-img" src="https://res.cloudinary.com/dx719oxg1/image/upload/v1671285562/coffeu_img-removebg-preview_ipo4ho.png"></img>
+                 <img className="greeting-img" src="https://res.cloudinary.com/dx719oxg1/image/upload/v1671285562/coffeu_img-removebg-preview_ipo4ho.png" alt="CoffeU imagen"></img>
 
                 </div>
                 
                 <div className="products">
                    <h2 className="products-title">Our Products</h2>
-                  {/* <ItemList list={list} /> */}
+                   <ItemList list={list} className="ItemListContainer"/>
                 </div>
 
 

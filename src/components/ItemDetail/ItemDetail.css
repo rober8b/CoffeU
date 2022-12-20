@@ -17,6 +17,10 @@
     margin: 50px;
 }
 
+.description-detail h2{
+    font-weight: bold;
+}
+
 .add-cart_detail{
     border: 2px #000;
     background-color:rgb(68, 68, 68);
@@ -24,4 +28,14 @@
     padding: 12px;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.ingredients{
+    color: rgb(116, 116, 116);
+}
+
+.description-detail h2 span{
+    font-size:x-large ;
+    color: rgb(116, 116, 116);
+    font-weight: 100;
 }
