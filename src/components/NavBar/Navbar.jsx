@@ -16,7 +16,7 @@ const Navigation  = function () {
      <div className="navbar-container">
      
      <Navbar.Brand>
-     <Link to="/">
+     <Link to="/" style={{ textDecoration: 'none' }}>
       <div className="logo">
          <img  className="logo-img" src="https://res.cloudinary.com/dx719oxg1/image/upload/v1671289862/logo__1_-removebg-preview_cxwtbz.png" />
          <h2>CoffeU</h2>
