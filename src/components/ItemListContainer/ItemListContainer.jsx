@@ -1,13 +1,12 @@
 import { useEffect, useState } from 'react';
 import ItemList from '../ItemList/ItemList';
-import data from './data.json'
 
 const ItemListContainer = () => {
 
     const [coffes, setCoffes] = useState([]);
 
     useEffect(() => {
-        fetch(data)
+        fetch('./data.json')
           .then((res) => res.json())
           .then((data) => setCoffes(data))
           .catch((err) => console.log("ERR", err));
