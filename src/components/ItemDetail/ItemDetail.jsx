@@ -2,10 +2,10 @@ import { useParams } from "react-router-dom";
 import "./ItemDetail.css"
 
 const ItemDetail = ({ data }) => {
-    let { title } = useParams(); 
+    let { id } = useParams(); 
     // const type = useLocation().pathname.split("/")[1]; 
     // const items = data[type]; 
-    const item = data.Coffes.find((item) => item.title === title); 
+    const item = data.Coffes.find((item) => item.id === id); 
     return (
       <>
         <div className="container-description">

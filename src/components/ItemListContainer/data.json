@@ -26,7 +26,7 @@
       },
       {
         "id": 3,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Wet_Cappuccino_with_heart_latte_art.jpg",
+        "image": "https://png.pngtree.com/png-vector/20201128/ourlarge/pngtree-cappuccino-png-image_2455904.jpg",
         "price": "$12",
         "title": "Cappuccino",
         "description": "Cappuccino is a latte made with more foam than steamed milk, often with a sprinkle of cocoa powder or cinnamon on top. Sometimes you can find variations that use cream instead of milk or ones that throw in flavor shot, as well.",
@@ -96,7 +96,7 @@
       },
       {
         "id": 9,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Gal%C3%A3o.jpg/1280px-Gal%C3%A3o.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgIktQk-0DCd07xOBCfzMYEYntEXbddLG-OA&usqp=CAU",
         "price": "$16",
         "title": "Galão",
         "description": "Originating in Portugal, this hot coffee drink is closely related to the latte and cappuccino. Only difference is it contains about twice as much foamed milk, making it a lighter drink compared to the other two.",
@@ -167,7 +167,7 @@
       },
       {
         "id": 15,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Vinoteca%2C_Smithfield%2C_London_%284485849609%29.jpg",
+        "image": "https://www.thespruceeats.com/thmb/5PcCBEaUd1U1eFxfcKKPLVnZzfA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/affogato-4776668-hero-08-40d7a68d12ba46f48eaea3c43aba715c.jpg",
         "price": "$18",
         "title": "Affogato",
         "description": "The affogato is an excuse to enjoy a scoop of ice cream any time of day (and any time of year in my opinion). Served with a scoop of ice cream and a shot of espresso, or two.",
@@ -266,7 +266,7 @@
           "Whip*"
         ],
         "price": "$21",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Strawberry_Delight_Frappuccino.JPG",
+        "image": "https://www.aguaeden.es/sites/default/files/blog_migrate/frappuccino.jpg",
         "id": 22,
         "category": "IcedCoffes"
       },
@@ -280,7 +280,7 @@
           "Cream*"
         ],
         "price": "$15",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Nitro_Cold_Brew.jpg",
+        "image": "https://globalassets.starbucks.com/assets/8c5dcfa053504f85b3e7af2fa451346d.jpg?impolicy=1by1_wide_topcrop_630",
         "id": 23,
         "category": "IcedCoffes"
       },
@@ -294,7 +294,7 @@
           "Rum*"
         ],
         "price": "$18",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Caf%C3%A9_mazagran.jpg",
+        "image": "https://afrifoodnetwork.com/wp-content/uploads/2022/06/1762cc_ce46c26310fd40999ee25ec5ae2712b7_mv2.webp",
         "id": 24,
         "category": "IcedCoffes"
       }

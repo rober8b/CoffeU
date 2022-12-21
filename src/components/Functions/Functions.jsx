@@ -5,17 +5,17 @@ export const getProducts = (category) => {
     setTimeout(() => {
       resolve(
         category
-          ? data.filter((product) => product.category === category)
-          : data
+          ? data.Coffes.filter((product) => product.category === category)
+          : data.Coffes
       );
-    }, 500);
+    }, 150);
   });
 };
 
-export const getProductById = (productId) => {
+export const getProductById = (id) => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(data.find((product) => product.id === productId));
-    }, 500);
+      resolve(data.Coffes.find((product) => product.id === id));
+    }, 150);
   });
 };
