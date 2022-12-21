@@ -4,7 +4,7 @@ import ItemDetail from "./components/ItemDetail/ItemDetail";
 import Navigation from "./components/NavBar/Navbar";
 import Home from "./components/Home/Home";
 import Footer from "./components/Footer/footer";
-import data from "./components/ItemListContainer/data.json";
+import data from "./data.json";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
 

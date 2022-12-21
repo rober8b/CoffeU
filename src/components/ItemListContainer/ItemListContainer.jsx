@@ -1,14 +1,18 @@
 import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import ItemList from '../ItemList/ItemList';
 
 const ItemListContainer = () => {
-
+    
     const [coffes, setCoffes] = useState([]);
 
+    // const [category] = useParams();
+
     useEffect(() => {
-        fetch('./data.json')
+        fetch('https://api.npoint.io/f40275807b998402dbd2 ')
           .then((res) => res.json())
           .then((data) => setCoffes(data))
+          .then()
           .catch((err) => console.log("ERR", err));
       }, []);
   
