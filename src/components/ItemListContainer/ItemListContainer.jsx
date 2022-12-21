@@ -1,38 +1,40 @@
+import "./ItemListContainer.css"
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ItemList from '../ItemList/ItemList';
+import  { getProducts } from "../Functions/Functions";
+import ProgressBar from 'react-bootstrap/ProgressBar';
+
 
 const ItemListContainer = () => {
     
     const [coffes, setCoffes] = useState([]);
 
-    // const [category] = useParams();
+    const [loading, setLoading] = useState(true);
+
+    let { category } = useParams();
 
     useEffect(() => {
-        fetch('https://api.npoint.io/f40275807b998402dbd2 ')
-          .then((res) => res.json())
+      getProducts(category)
           .then((data) => setCoffes(data))
-          .then()
-          .catch((err) => console.log("ERR", err));
-      }, []);
+          .catch((err) => console.log("ERR", err))
+          .finally(() => setLoading(false));
+      }, [category]);
   
     return (
       <>
-        <div className="container">
-          <h1 style={{ textAlign: "center" }}> ItemListContainer </h1>
-          <ItemList
-            list={coffes}
-          />
+        <div className="ItemListcontainer">
+        {loading ? (
+          <ProgressBar now={50} className="mb-5" />
+        ) : coffes.length > 0 ? (
+          <ItemList list={coffes} />
+        ) : (
+          <h1>Productos no encontrados</h1>
+        )}
         </div>
+
       </>
       );
 }
 
 export default ItemListContainer
-
-    // const fetchCoffes = (url) => {
-    //       fetch(url)
-    //       .then(response => response.json())
-    //       .then(data => setCoffes(data))
-    //       .catch(error => console.log(error))
-    //     }

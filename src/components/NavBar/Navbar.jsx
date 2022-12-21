@@ -3,7 +3,6 @@ import CartWidget from "../CartWidget/CartWidget";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from "react-router-dom";
 
 
@@ -18,7 +17,7 @@ const Navigation  = function () {
      <Navbar.Brand>
      <Link to="/" style={{ textDecoration: 'none' }}>
       <div className="logo">
-         <img  className="logo-img" src="https://res.cloudinary.com/dx719oxg1/image/upload/v1671289862/logo__1_-removebg-preview_cxwtbz.png" />
+         <img  className="logo-img" src="https://res.cloudinary.com/dx719oxg1/image/upload/v1671289862/logo__1_-removebg-preview_cxwtbz.png" alt="logo CoffeU"/>
          <h2>CoffeU</h2>
       </div>
       </Link>
