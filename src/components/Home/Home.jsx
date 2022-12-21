@@ -1,5 +1,5 @@
 import "./Home.css"
-import ItemList from "../ItemList/ItemList"
+import ItemListContainer from "../ItemListContainer/ItemListContainer";
 
 const Home = ({list}) => {
     return(
@@ -34,7 +34,7 @@ const Home = ({list}) => {
                 
                 <div className="products">
                    <h2 className="products-title">Our Products</h2>
-                   <ItemList list={list} className="ItemListContainer"/>
+                   <ItemListContainer list={list} className="ItemListContainer"/>
                 </div>
 
 
