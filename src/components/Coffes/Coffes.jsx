@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 const Coffes = function ({ title, image, price }) {
   return (
     <Card style={{ width: '18rem'}}  className="card rounded mx-2 mb-4">
-        <Link to={`${title}`} style={{ textDecoration: 'none' }}>
+        <Link to={`/item/${title}`} style={{ textDecoration: 'none' }}>
         <Card.Img className="card-img" src={image}/>
      
 

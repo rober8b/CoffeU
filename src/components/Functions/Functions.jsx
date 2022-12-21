@@ -15,7 +15,7 @@ export const getProducts = (category) => {
 export const getProductById = (id) => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(data.Coffes.find((product) => product.id === id));
+      resolve(data.Coffes.find((product) => product.title === id));
     }, 150);
   });
 };
