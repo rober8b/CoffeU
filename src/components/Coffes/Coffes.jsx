@@ -1,11 +1,12 @@
 import "./Coffes.css"
 import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
-
+import React from "react";
 
 const Coffes = function ({ title, image, price }) {
+
   return (
-    <Card style={{ width: '18rem'}}  className="card rounded mx-2 mb-4">
+    <Card style={{ width: '15rem'}}  className="card rounded mx-2 mb-4">
         <Link to={`/item/${title}`} style={{ textDecoration: 'none' }}>
         <Card.Img className="card-img" src={image}/>
      
@@ -14,7 +15,7 @@ const Coffes = function ({ title, image, price }) {
 
       <Card.Title><h2 className="card-title">{title}</h2></Card.Title>
 
-        <h3 className="card-price"><span>US</span>{price}</h3>
+        <h3 className="card-price"><span>U$S</span>{price}</h3>
 
        </Card.Body>
        </Link>

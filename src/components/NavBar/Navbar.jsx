@@ -36,7 +36,9 @@ const Navigation  = function () {
          <button className="buttons-navbar">Iced Coffes</button>
          </Link>
 
+        <Link to="/Cart" style={{ textDecoration: 'none' }}>
          <CartWidget />
+         </Link>
          
          </Nav>
         </Navbar.Collapse>

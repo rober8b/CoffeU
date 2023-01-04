@@ -76,7 +76,21 @@
     filter: blur(80px);
 }
 
+.support-area{
+    margin-right: 100px;
+}
+
 .products-title{
     font-weight: bold;
     margin-right:90px;
+}
+
+.support-wrap{
+    border: 1px solid #000;
+    height: 125px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    z-index: 14;
+    box-shadow: 5px 12px 14px 0px rgba(0,0,0,0.3);
 }

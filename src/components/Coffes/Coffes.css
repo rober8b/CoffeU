@@ -1,16 +1,19 @@
 
 .card{
-    border-radius:  40px 40px !important;
-    border: 0px;  
-    background-color: rgba(231, 228, 194, 0.7)
+    border-radius: 30px !important;
+    border: 1px solid #000;  
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    box-shadow: 5px 12px 14px 0px rgba(0, 0, 0, 0.3);
 }
 
 .card-img{
     cursor: pointer;
     justify-self: center;
     border-radius: 10px;
-    width: 190px;
-    height: 200px;
+    width: 135px;
+    height: 150px;
     margin-top: 20px;
 }
 

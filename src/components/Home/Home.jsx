@@ -28,8 +28,59 @@ const Home = ({list}) => {
 
                     </div>
 
-                 <img className="greeting-img" src="https://res.cloudinary.com/dx719oxg1/image/upload/v1671285562/coffeu_img-removebg-preview_ipo4ho.png" alt="CoffeU imagen"></img>
+                 <img className="greeting-img" src="https://res.cloudinary.com/dx719oxg1/image/upload/v1671715467/coffeu_img__2_-removebg-preview_qa8jgm.png" alt="CoffeU imagen"></img>
 
+                </div>
+
+                <div className="support-area mb-5 mt-5">
+                    <div className="container">
+                        <div className="row">
+                         <div className="col-lg-3 col-sm-6">
+                            <div className="support-wrap mb-30">
+                                <div className="support-icon">
+                                   <img src="" alt="" />
+                                </div>
+                                        <div className="support-content">
+                                            <h5>Simple and safe purchase</h5>
+                                            <p>Your order is always safe</p>
+                                        </div>
+                                </div>
+                         </div>
+                         <div className="col-lg-3 col-sm-6">
+                            <div className="support-wrap mb-30">
+                                <div className="support-icon">
+                                   <img src="" alt="" />
+                                </div>
+                                        <div className="support-content">
+                                            <h5>Support 24/7</h5>
+                                            <p>You will be attended to as soon as possible</p>
+                                        </div>
+                                </div>
+                         </div>
+                         <div className="col-lg-3 col-sm-6">
+                            <div className="support-wrap mb-30">
+                                <div className="support-icon">
+                                   <img src="" alt="" />
+                                </div>
+                                        <div className="support-content">
+                                            <h5>Quick Delivery</h5>
+                                            <p>We will make sure your order arrives quickly</p>
+                                        </div>
+                                </div>
+                         </div>
+                         <div className="col-lg-3 col-sm-6">
+                            <div className="support-wrap mb-30">
+                                <div className="support-icon">
+                                   <img src="" alt="" />
+                                </div>
+                                        <div className="support-content">
+                                            <h5>Order Discount</h5>
+                                            <p>Get incredible discounts</p>
+                                        </div>
+                                </div>
+                         </div>
+                        </div>
+                    </div>
                 </div>
                 
                 <div className="products">
