@@ -20,13 +20,13 @@ const ItemDetail = ({ product }) => {
         <div className="container-description">
         <img className="description-img" src={ product.image} alt={ product.title} />
            <div className="description-detail">
-              <h2>{ product.title}</h2>
-              <p>{ product.description}</p>
+              <h2>{ product.title }</h2>
+              <p>{ product.description }</p>
               <p className="ingredients">Ingridients:
                 <br />
               { product.ingredients}
               </p>
-              <h2><span>us</span>{ product.price}</h2>
+              <h2><span>u$s</span>{ product.price}</h2>
               {
                 goToCart
                      ? <Link to='/cart' className="btn-finish" style={{ textDecoration: 'none' }}>Go to cart</Link>

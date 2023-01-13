@@ -86,11 +86,10 @@
 }
 
 .support-wrap{
-    border: 1px solid #000;
     height: 125px;
     border-radius: 30px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 251, 0, 0.5);
     backdrop-filter: blur(10px);
     z-index: 14;
-    box-shadow: 5px 12px 14px 0px rgba(0,0,0,0.3);
+    box-shadow: 5px 12px 14px 0px rgba(255, 251, 0,0.4);
 }
