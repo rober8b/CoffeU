@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# CoffeU
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_CoffeU es un ecommerce de cafes hecho en React.js, este fue realizado como un proyecto para el curso online de Coderhouse._
 
-## Available Scripts
+## DEMO 🚀
 
-In the project directory, you can run:
+https://proyecto-final-barbuto.vercel.app
 
-### `npm start`
+### Explicacion del flujo de la app 📋
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+_CoffeU esta compuesta principalmente por cinco secciones las cuales son el Home que engloba el total del ItemListContainer para mostrar todos los productos en su totalidad, las dos categorys que separan a los HotCoffes de los IcedCoffes, el ItemDetail el cual nos da un perspectiva mas a detalle del producto, el Cart cuya funcion es englobar los productos seleccionados o agregados, y por ultimo el Form de contacto cuyo proposito es generar un ID de Order que va a ser almacenado junto a los datos del cliente en Firebase._
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+_Mi app esta compuesta por varios items y sus respectivos containers, de esta forma todo el data flow sigue una direccion unidireccional por lo que cada container engloba a un hijo o a un child por lo que la data se mueve en una sola direccion para abajo, esto es posible mediante props ,los states y el context._
 
-### `npm test`
+## Despliegue 📦
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_La app fue creada con react app por lo que debe ser corrida desde la terminal con npm start_
 
-### `npm run build`
+## LIBRERÍAS 
+react-router: Librería para el ruteo de la SPA.
+firebase: Servicio web que nos proporciona un backend en la nube con una fuente de datos NoSQL, la utilice para cargar los productos y tambien las ordenes de compra son guardadas alli con los los datos del cliente que se ingresan mediante el form.
+bootstrap: Utilizado para darle estilos a la pagina y a los components.
+Sweet Alert: Fue utilizada unicamente para dar una alerta cuando la orden de compra fue correctamente generada.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Con ❤️ por Robertino Barbuto
