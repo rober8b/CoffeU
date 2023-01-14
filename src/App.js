@@ -20,7 +20,7 @@ const App = function () {
         <main>
             <Routes>
               <Route exact path="/" element={<Home />} />
-              <Route exact path="/:category" element={<ItemListContainer />} />
+              <Route exact path="/category/:category" element={<ItemListContainer />} />
               <Route exact path="/item/:id" element={<ItemDetailContainer />} />
               <Route exact path="/cart" element={<Cart />} />
               <Route exact path="/form" element={<Form />} />

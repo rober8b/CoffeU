@@ -29,7 +29,7 @@ const ItemDetail = ({ product }) => {
               <h2><span>u$s</span>{ product.price}</h2>
               {
                 goToCart
-                     ? <Link to='/cart' className="btn-finish" style={{ textDecoration: 'none' }}>Go to cart</Link>
+                     ? <Link to='/cart' className="btn-primary" style={{ textDecoration: 'none' }}>Go to cart</Link>
                      :  <ItemCount initial={1} stock={5} onAdd={onAdd} />
               }
            </div>

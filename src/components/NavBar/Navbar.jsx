@@ -28,11 +28,11 @@ const Navigation  = function () {
       <Navbar.Collapse id="basic-navbar-nav">
       
       <Nav className="me-auto">
-         <Link to="/HotCoffes">
+         <Link to="/category/HotCoffes">
          <button className="buttons-navbar" >Hot Coffes</button>
          </Link>
 
-         <Link to="/IcedCoffes">
+         <Link to="/category/IcedCoffes">
          <button className="buttons-navbar">Iced Coffes</button>
          </Link>
 

@@ -9,7 +9,7 @@ export const Cart = () => {
   if (cart.length === 0){
     return (
       <>
-       <div className="container"  style={{ minHeight: '80vh' }}>
+       <div className="container"  style={{ minHeight: '100vh' }}>
         <p>You have no items in the cart</p>
         <Link to='/'>Keep Buying</Link>
         </div>
@@ -19,7 +19,7 @@ export const Cart = () => {
 
   return (
     <> 
-    <div className="container"  style={{ minHeight: '80vh' }}>
+    <div className="container" style={{ minHeight: '100vh' }}> 
         {
           cart.map(product => <ItemCart key={product.id} product={product} />)
         }

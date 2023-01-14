@@ -1,6 +1,7 @@
 import React, { useState }  from 'react'
 import { addDoc, collection, getFirestore } from 'firebase/firestore';
 import { useCartContext } from '../../context/CartContext';
+import swal from 'sweetalert';
 import './Form.css'
 
 const Form = () => {
@@ -10,9 +11,17 @@ const Form = () => {
     const [inputEmail, setInputEmail] = useState("");
     const [inputPhone, setInputPhone] = useState("");
     const [inputAddress, setInputAddress] = useState("");
+
+    const showAlert = () => {
+     swal({
+     title: "Thanks!",
+     text: 'Check your email to see your order',
+     icon: 'success'
+     })}
   
-  const createOrder = (e) => {
+  const createOrder = async (e) => {
      e.preventDefault();
+     e.target.reset()
      const Order = {
         name: inputName,
         email: inputEmail,
@@ -22,13 +31,16 @@ const Form = () => {
         total: totalPrice()
      }
      console.log(Order)
+     const id = await handleClick(Order)
+     console.log("ID ORDER:", id)
+     showAlert()
    };
 
-  const handleClick = () => {
+  const handleClick = async (Order) => {
     const db = getFirestore();
     const ordersCollection = collection(db, 'orders');
-    addDoc(ordersCollection, createOrder())
-    .then(({ id }) => console.log(id))
+    const result = await addDoc(ordersCollection, Order);
+    return result.id
   } 
 
   return (
@@ -59,8 +71,12 @@ const Form = () => {
         onChange={(e) => setInputAddress(e.target.value)}
         value={inputAddress} 
         />
-        <button onClick={handleClick} type="text" className='submit btn-primary'>submit</button>
-        <p>Check your email!</p>
+         <input
+                            type="submit"
+                            value="Buy"
+                            className="submit btn-primary"
+                        />
+        {/* <button onClick={handleClick} type="text" className='submit btn-primary'>submit</button> */}
     </form>
     </section>
   )
