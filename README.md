@@ -4,7 +4,7 @@ _CoffeU es un ecommerce de cafes hecho en React.js, este fue realizado como un p
 
 ## DEMO 🚀
 
-https://proyecto-final-barbuto.vercel.app
+https://coffeu.vercel.app
 
 ### Explicacion del flujo de la app 📋
 
